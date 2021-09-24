@@ -10,7 +10,7 @@ This application provides below APIs
 1. Add user  :
    This API will add the  incoming user in to the system. API will respond with user data if insertion is successfull otherwise API will return empty object 
       
-      API             : http://<host>:<port>/[/api/users]
+      API             : http://<host>:<port>/api/users
       Request method  : POST
       Request         :
                         {
@@ -23,7 +23,7 @@ This application provides below APIs
   
 3. Add book 
    This API will add the incoming books in to the system. API will respond with books data if insertion is successfull otherwise API will return empty object.
-      API             : http://<host>:<port>/[/api/books]
+      API             : http://<host>:<port>/api/books
       Request method  : POST
       Request         :
                           {
@@ -37,7 +37,7 @@ This application provides below APIs
    This API will add the books in to the system. API will resposnd with added books data along with userid if insertion is successfull for wishlist otherwise 
     API will return   empty object. 
     
-      API             : http://<host>:<port>/[/api/wishlist]
+      API             : http://<host>:<port>/api/wishlist
       Request method  : POST
       Request         :
                         {
@@ -52,29 +52,29 @@ This application provides below APIs
    
 7. Get book by ISBN  
    This API will fecth the books record for given ISBN. API will respond with books data if fetch is successfull otherwise API will return empty object.
-       API             : http://<host>:<port>/[/api/books/<ISBN>]
+       API             : http://<host>:<port>/api/books/<ISBN>
        Request method  : GET
   
 8. Get userwishlist by userid.
    This API will fecth the user record for given userid. API will respond with user data if fetch is successfull otherwise API will return empty object.
        
-       API             : http://<host>:<port>/[/api/wishlist/<userid>]
+       API             : http://<host>:<port>/api/wishlist/<userid>
        Request method  : GET
   
 9. Delete book from user wishlist.
    API will return success message if deletetion is successfull otherwise API will return failure message.
        
-       API             : http://<host>:<port>/[/api/wishlist/<userid>/<ISBN>]
+       API             : http://<host>:<port>/api/wishlist/<userid>/<ISBN>
        Request method  : DELETE
   
 10. Delete user by user id . 
     API will return success message if deletetion is successfull otherwise API will return failure message.
        
-       API             : http://<host>:<port>/[/api/users/<userid>]
+       API             : http://<host>:<port>/api/users/<userid>
        Request method  : DELETE
   
 11. Delete the book by ISBN.
     API will return success message if deletetion is successfull otherwise API will return failure message.
       
-       API             : http://<host>:<port>/[/api/books/<ISBN>]
+       API             : http://<host>:<port>/api/books/<ISBN>
        Request method  : DELETE
