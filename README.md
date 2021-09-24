@@ -6,17 +6,17 @@
  Application provides APIs to manage the userwishlsit. User can add the books to wishlist by passing ISBN number and user id. 
  User can fetch all the books present in wishlist for given userid and delete the book from wishlist. Based on UI funcationality we can utilize the API accordingly.
 
-Prerequist:
-    Python version 3.9.6. Applcaition implemented using SQLLite database and flask web module
+Prerequist: \n
+    Python version 3.9.6. Applcaition implemented using SQLLite database and flask web module \n
     
-How to execute the script:
-   python wishlist-api.py
+How to execute the script: \n
+   python wishlist-api.py \n
 
 This application provides below APIs 
 1. Add user  :
    This API will add the  incoming user in to the system. API will respond with user data if insertion is successfull otherwise API will return empty object 
       
-      API             : http://<hostname>:<portnumber>/api/users
+      API             : http://<hostname>:<portnumber>/api/users 
       Request method  : POST
  
       Request         :
