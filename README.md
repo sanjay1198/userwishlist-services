@@ -47,7 +47,7 @@ This application provides below APIs
 6. Get user by userid 
    This API will fecth the user record for given userid. API will respond with user data if fetch is successfull otherwise API will return empty object.
       
-       API             : http://<host>:<port>/[/api/users/<userid>]
+       API             : http://<host>:<port>/api/users/<userid>
        Request method  : GET
    
 7. Get book by ISBN  
