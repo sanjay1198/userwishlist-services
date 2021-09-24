@@ -12,6 +12,7 @@ This application provides below APIs
       
       API             : http://<host>:<port>/api/users
       Request method  : POST
+ 
       Request         :
                         {
                            "userid"  : "Jhon001",
@@ -25,6 +26,7 @@ This application provides below APIs
    This API will add the incoming books in to the system. API will respond with books data if insertion is successfull otherwise API will return empty object.
       API             : http://<host>:<port>/api/books
       Request method  : POST
+ 
       Request         :
                           {
                              "ISBN"  : "978-1-57819-909-4",
