@@ -10,9 +10,12 @@ Prerequist:
 
     Applcaition implemented using Python version 3.9.6. SQLLite database and flask web module 
     
-How to execute the script: 
+How to start the server : 
 
-    python wishlist-api.py 
+    python wishlist_api.py 
+
+How to run the unit test case:
+     pytest -v
 
 This application provides below APIs 
 1. Add user  :
