@@ -13,9 +13,10 @@ Prerequist:
 How to start the server : 
 
     python wishlist_api.py 
+    
+How to execute the unit test case:
 
-How to run the unit test case:
-     pytest -v
+      pytest -v
 
 This application provides below APIs 
 1. Add user  :
